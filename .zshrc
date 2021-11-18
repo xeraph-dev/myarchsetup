@@ -49,7 +49,9 @@ alias lsg="ls -ls | grep"
 alias cl="clear"
 
 # aur
-alias aur="sh aur.sh"
+alias auri="sh auri.sh"
+alias aurd="sh aurd.sh"
+alias auru="sh auru.sh"
 
 # btop
 alias btop="sudo btop"

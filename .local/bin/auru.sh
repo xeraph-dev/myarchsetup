@@ -15,7 +15,6 @@ package_path="$AUR_PATH/$1"
 
 if [ -d $package_path ]; then
   cd $package_path
-  if [ -d $package_path  ]: then  
 else
   echo "Package $package_path does not exists"
 fi
