@@ -6,7 +6,7 @@
 
 1. [Instalation](./docs/Installation.md)
 2. Scripts
-   1. [Aur](./Aur.md)
+   1. [Aur](./docs/scripts/Aur.md)
 3. [Pre-configuration](./docs/Pre-configuration.md)
 4. Configurations
    1. [User](./docs/configurations/User.md)
