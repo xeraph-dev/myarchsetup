@@ -8,7 +8,7 @@
 spmS nvidia nvidia-utils nvidia-settings
 ```
 
-In a virtual machine, install  `xf86-video-intel mesa` instance of `nvidia` y `nvidia-utils`
+In a virtual machine, install  `xf86-video-intel mesa` instance of `nvidia`
 
 
 
