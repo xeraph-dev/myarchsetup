@@ -40,11 +40,11 @@ Select the partition table type (recommended GPT)  (If the disk has a partition 
 
 ###### Partition table example
 
-| Device    | Size                  | Type             |
-| --------- | --------------------- | ---------------- |
-| /dev/sdx1 | 550M                  | EFI              |
-| /dev/sdx2 | 2xRAM                 | SWAP             |
-| /dev/sdx3 | Resto (Al menos 20GB) | Linux filesystem |
+| Device    | Size                      | Type             |
+| --------- | ------------------------- | ---------------- |
+| /dev/sdx1 | 550M                      | EFI              |
+| /dev/sdx2 | 2xRAM                     | SWAP             |
+| /dev/sdx3 | Remaining (at least 20GB) | Linux filesystem |
 
 When finish, select `Write`
 
@@ -183,6 +183,15 @@ grub-install --target=x86_64-efi --efi-directory=/boot/efi
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+
+###### Configure os-prober
+
+```shell
+vim /etc/default/grub
+
+# Put at the end
+GRUB_DISABLE_OS_PROBER=false
+```
 
 
 ###### Reboot
