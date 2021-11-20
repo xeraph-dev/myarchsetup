@@ -4,7 +4,7 @@
 
 
 
-1. [Instalation](./docs/Installation.md)
+1. [Installation](./docs/Installation.md)
 2. [User](./docs/configurations/User.md)
 3. Scripts
    1. [Aur](./docs/scripts/Aur.md)
