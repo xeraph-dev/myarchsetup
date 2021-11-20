@@ -20,6 +20,8 @@
    10. [Audio](./docs/configurations/Audio.md)
    11. [Lightdm](./docs/configurations/Lightdm.md)
 6. [Programs](./docs/Programs.md)
+6. [Docker]("./docks/Docker.md")
+6. [Polkit](./docs/Polkit.md)
 
 
 

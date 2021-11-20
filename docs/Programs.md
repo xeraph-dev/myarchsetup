@@ -1,7 +1,5 @@
 # Programs
 
-
-
 ###### Pacman
 
 ```shell
@@ -12,7 +10,7 @@ spmS neofetch btop nethogs gnome-system-monitor xdotool gzip gnome-control-cente
 
 ###### Aur
 
-```
+```shell
 auri polkit-explorer-git
 auri visual-studio-code-bin
 auri typora
@@ -21,10 +19,8 @@ auri webstorm
 
 
 
-
-
 ```
 wget -O - https://raw.githubusercontent.com/adrianrl99/myarchsetup/main/wallpaper/wallpaper.jpg > ~/.wallpaper/wallpaper.jpg
 ```
 
- after install feh and download wallpaper, restart i3
+after install feh and download wallpaper, restart i3
