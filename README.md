@@ -23,3 +23,12 @@
    11. [Lightdm](./docs/configurations/Lightdm.md)
 6. [Programs](./docs/Programs.md)
 
+
+
+### Screenshots
+
+![code](./screenshots/code.png)
+
+
+
+![terminals](./screenshots/terminals.png)
