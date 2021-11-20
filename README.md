@@ -5,11 +5,11 @@
 
 
 1. [Instalation](./docs/Installation.md)
-2. Scripts
+2. [User](./docs/configurations/User.md)
+3. Scripts
    1. [Aur](./docs/scripts/Aur.md)
-3. [Pre-configuration](./docs/Pre-configuration.md)
-4. Configurations
-   1. [User](./docs/configurations/User.md)
+4. [Pre-configuration](./docs/Pre-configuration.md)
+5. Configurationst
    2. [Zsh](./docs/configurations/Zsh.md)
    3. [Fonts](./docs/configurations/Fonts.md)
    4. [Vim](./docs/configurations/Vim.md)
@@ -19,6 +19,7 @@
    8. [Picom](./docs/configurations/Picom.md)
    9. [Xorg](./docs/configurations/Xorg.md)
    10. [NvidiaDriver](./docs/configurations/NvidiaDriver.md)
+   10. [Audio](./docs/configurations/Audio.md)
    11. [Lightdm](./docs/configurations/Lightdm.md)
-5. [Programs](./docs/Programs.md)
+6. [Programs](./docs/Programs.md)
 

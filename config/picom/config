@@ -12,13 +12,17 @@ size-transition = true
 #################################
 #             Corners           #
 #################################
-corner-radius = 10;
+corner-radius = 10
 rounded-corners-exclude = [
   "class_g = 'Polybar'",
+  "window_type = 'dock'",
+  "window_type = 'desktop'"
 ];
-round-borders = 1;
-round-borders-exclude = [
-];
+#round-borders = 1;
+#round-borders-exclude = [
+#  "window_type = 'dock'",
+#  "window_type = 'desktop'"
+#];
 
 #################################
 #             Shadows           #
@@ -240,6 +244,7 @@ blur-background-exclude = [  #
 experimental-backends = false;
 backend = "glx";
 #backend = "xrender";
+#backend = "xr_glx_hybrid";
 
 
 # Enable/disable VSync.

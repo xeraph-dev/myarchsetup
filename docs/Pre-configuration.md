@@ -30,5 +30,11 @@ nvm install node
 
 ```shell
 mkdir -p ~/.local/bin
+mkdir ~/.wallpaper
+mkdir ~/Download
+mkdir ~/Documents
+mkdir ~/Music
+mkdir ~/Images
+mkdir ~/work
 ```
 

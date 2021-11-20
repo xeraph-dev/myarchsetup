@@ -43,6 +43,7 @@ alias spmSy="spm -Sy"
 alias spmSyy="spm -Syy"
 # Remove package
 alias spmR="spm -R"
+alias spmRns="spm -Rns"
 
 # ls
 alias ls="ls --color=auto"

@@ -128,6 +128,8 @@ Example: America/Havana
 
 ###### Configure language
 
+In /etc/locale.gen uncomment languages to use
+
 ```shell
 locale-gen
 echo LANG=lang_Country.UTF-8 > /etc/locale.conf

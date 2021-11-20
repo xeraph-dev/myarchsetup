@@ -114,6 +114,7 @@ module-margin = 0
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 font-0 = "JetBrainsMono Nerd Font:antialias=true:weight=bold:pixelsize=12;3"
+font-1 = "JetBrainsMono Nerd Font:antialias=true:weight=regular:pixelsize=4"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
@@ -380,7 +381,7 @@ format-volume = <ramp-volume> <label-volume>
 ;   %decibels%
 label-muted = 
 label-muted-foreground = #666
-label-font = 0
+label-font = 1
 
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 
@@ -417,7 +418,7 @@ format-foreground = #fff
 ;   %time%
 ; Default: %date%
 label = %date% %time%
-label-font = 0
+label-font = 1
 label-foreground = #ddd
 
 
@@ -441,7 +442,7 @@ format = <label>
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
 label = CPU %percentage%% 
-label-font = 0
+label-font = 1
 
 
 [module/memory]

@@ -22,7 +22,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ###### Install code-minimap
 
 ```shell
-cargo install --locked code-minimap
+auri code-minimap
 ```
 
 This need [Rust](../Pre-configuration.md)

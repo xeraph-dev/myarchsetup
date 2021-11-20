@@ -2,33 +2,29 @@
 
 
 
-###### Utilities
+###### Pacman
 
 ```shell
-spmS neofetch btop nethogs gnome-disk-utility gnome-tweaks gnome-system-monitor
+spmS neofetch btop nethogs gnome-system-monitor xdotool gzip gnome-control-center gnome-disk-utility gnome-system-monitor telegram-desktop rofi vivaldi nautilus feh scrot mutter gnome-shell lollypop seahorse gnome-keyring gvfs polkit polkit-gnome dconf-editor gnome-calculator geary eog celluloid
 ```
 
 
 
-###### App launcher
+###### Aur
 
-```shell
-spmS rofi
+```
+auri polkit-explorer-git
+auri visual-studio-code-bin
+auri typora
+auri webstorm
 ```
 
 
 
-###### Browser
+
 
 ```
-spmS vivaldi
+wget -O - https://raw.githubusercontent.com/adrianrl99/myarchsetup/main/wallpaper/wallpaper.jpg > ~/.wallpaper/wallpaper.jpg
 ```
 
-
-
-###### Filesystem manager
-
-```shell
-spmS nautilus
-```
-
+ after install feh and download wallpaper, restart i3

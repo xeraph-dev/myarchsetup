@@ -5,7 +5,7 @@
 ###### Install
 
 ```shell
-spmS picom
+auri picom-jonaburg-git
 ```
 
 

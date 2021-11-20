@@ -188,9 +188,9 @@ gaps outer 1
 #gaps horizontal 2
 
 # Keybindings
-bindsym --release  Print exec scrot -pe 'mv $f ~/Imágenes/'
-bindsym --release  $mod+Print exec scrot -pue 'mv $f ~/Imágenes/'
-bindsym --release  Shift+Print exec scrot -pse 'mv $f ~/Imágenes/'
+bindsym --release  Print exec scrot -pe 'mv $f ~/Images/'
+bindsym --release  $mod+Print exec scrot -pue 'mv $f ~/Images/'
+bindsym --release  Shift+Print exec scrot -pse 'mv $f ~/Images/'
 
 # Floatings windows
 for_window [window_role="pop-up"] floating enable
@@ -199,6 +199,7 @@ for_window [window_role="task_dialog"] floating enable
 exec --no-startup-id telegram-desktop
 exec --no-startup-id 1password --silent
 exec --no-startup-id nautilus
+exec --no-startup-id polybar &
 
 exec_always --no-startup-id feh --recursive --bg-fill --randomize ~/.wallpaper &
 exec_always --no-startup-id picom --config ~/.config/picom/config &
@@ -207,6 +208,7 @@ exec_always --no-startup-id picom --config ~/.config/picom/config &
 assign [class="Code"] $workspace1
 assign [class="jetbrains-webstorm"] $workspace1
 assign [class="Google-chrome"] $workspace2
+assign [class="Vivaldi-stable"] $workspace2
 assign [class="Firefox"] $workspace2
 assign [class="TelegramDesktop"] $workspace4
 assign [class="Slack"] $workspace4
@@ -216,7 +218,7 @@ assign [class="Org.gnome.Nautilus"] $workspace5
 title_align center
 
 # Automatic back-and-forth when switching to the current workspace (yes|no)
-workspace_auto_back_and_forth yes
+workspace_auto_back_and_forth no
 
 # Delaying urgency hint reset on workspace change
 force_display_urgency_hint 500 ms
