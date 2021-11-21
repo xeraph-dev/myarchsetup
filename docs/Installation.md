@@ -182,18 +182,22 @@ passwd
 ```shell
 pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot/efi
-grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 
-###### Configure os-prober
+###### Configure grub
 
 ```shell
 vim /etc/default/grub
 
-# Put at the end
-GRUB_DISABLE_OS_PROBER=false
+# Change this key
+GRUB_CMDLINE_LINUX_DEFAULT="text"
 ```
+
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 
 
 ###### Reboot
