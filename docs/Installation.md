@@ -94,7 +94,7 @@ Server = http://repos.uo.edu.cu/archlinux/$repo/os/$arch
 ###### Install base packages
 
 ```shell
-pacstrap /mnt base base-devel linux linux-firmware vim git unzip
+pacstrap /mnt base base-devel linux linux-firmware gvim git unzip
 ```
 
 
