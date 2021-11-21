@@ -34,7 +34,8 @@ mkdir ~/.wallpaper
 mkdir ~/Download
 mkdir ~/Documents
 mkdir ~/Music
-mkdir ~/Images
+mkdir ~/Pictures
+mkdir ~/Pictures/scrot
 mkdir ~/work
 ```
 

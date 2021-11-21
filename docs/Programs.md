@@ -3,7 +3,7 @@
 ###### Pacman
 
 ```shell
-spmS neofetch btop nethogs gnome-system-monitor xdotool gzip gnome-control-center gnome-disk-utility gnome-system-monitor telegram-desktop rofi vivaldi nautilus feh scrot mutter gnome-shell lollypop seahorse gnome-keyring gvfs polkit polkit-gnome dconf-editor gnome-calculator geary eog celluloid
+spmS neofetch btop nethogs xdotool gzip gnome-disk-utility telegram-desktop rofi vivaldi nautilus feh scrot lollypop seahorse gnome-keyring gvfs polkit polkit-gnome dconf-editor gnome-calculator eog celluloid lxappearance-gtk3
 ```
 
 
@@ -15,6 +15,7 @@ auri polkit-explorer-git
 auri visual-studio-code-bin
 auri typora
 auri webstorm
+auri ocs-url
 ```
 
 

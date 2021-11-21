@@ -3,10 +3,14 @@
 ### Not finished yet
 
 1. [Installation](./docs/Installation.md)
+
 2. [User](./docs/configurations/User.md)
+
 3. Scripts
    1. [Aur](./docs/scripts/Aur.md)
+   
 4. [Pre-configuration](./docs/Pre-configuration.md)
+
 5. Configurationst
    1. [Zsh](./docs/configurations/Zsh.md)
    2. [Fonts](./docs/configurations/Fonts.md)
@@ -19,11 +23,16 @@
    9. [NvidiaDriver](./docs/configurations/NvidiaDriver.md)
    10. [Audio](./docs/configurations/Audio.md)
    11. [Lightdm](./docs/configurations/Lightdm.md)
+   
 6. [Programs](./docs/Programs.md)
-6. [Docker]("./docks/Docker.md")
-6. [Polkit](./docs/Polkit.md)
 
+7. [Docker]("./docks/Docker.md")
 
+8. [Polkit](./docs/Polkit.md)
+
+9. [Customization](./docs/Customization)
+
+   
 
 ### Screenshots
 
