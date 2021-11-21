@@ -3,7 +3,7 @@
 ###### Pacman
 
 ```shell
-spmS neofetch btop nethogs xdotool gzip gnome-disk-utility telegram-desktop rofi vivaldi nautilus feh scrot lollypop seahorse gnome-keyring gvfs polkit polkit-gnome dconf-editor gnome-calculator eog celluloid lxappearance-gtk3
+spmS neofetch btop nethogs xdotool gzip gnome-disk-utility telegram-desktop rofi vivaldi nautilus feh scrot seahorse gnome-keyring gvfs polkit polkit-gnome dconf-editor gnome-calculator eog celluloid lxappearance-gtk3 sushi
 ```
 
 

@@ -191,9 +191,14 @@ gaps outer 1
 #gaps horizontal 2
 
 # Keybindings
+# Scrot
 bindsym --release  Print exec scrot -pe 'mv $f ~/Pictures/scrot/'
 bindsym --release  $mod+Print exec scrot -pue 'mv $f ~/Pictures/scrot/'
-bindsym --release  $mod+Shift+Print exec scrot -pse 'mv $f ~/Pictures/scrot/'
+bindsym --release  $mod+Shift+Print exec scrot -ps -e 'mv $f ~/Pictures/scrot/'
+
+# Workspace
+bindsym --release $mod+Control+Left workspace prev
+bindsym --release $mod+Control+Right workspace next
 
 # Floatings windows
 for_window [window_role="pop-up"] floating enable
