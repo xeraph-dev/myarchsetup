@@ -30,6 +30,10 @@
 
 8. [Polkit](./docs/Polkit.md)
 
+8. [1password](./docs/1password.md)
+
+8. [Warp](./docs/Warp.md)
+
 9. [Customization](./docs/Customization)
 
    

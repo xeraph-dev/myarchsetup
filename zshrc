@@ -41,8 +41,18 @@ alias spmS="spm -S"
 alias spmSy="spm -Sy"
 # Force update database of packages
 alias spmSyy="spm -Syy"
+# Upgrade system packages
+alias spmSyu="spm -Syu"
 # Remove package
 alias spmR="spm -R"
+# Remove package and unnecessary dependencies
+alias spmRns="spm -Rns"
+# List all packages installed as dependencies
+alias pmQd="pm -Qd"
+# List all packages installed explicitly
+alias pmQe="pm -Qe"
+# Mostrar informacion del package
+alias pmQi="pm -Qi"
 
 # ls
 alias ls="ls --color=auto"
@@ -56,6 +66,9 @@ alias btop="sudo btop"
 
 # nethogs
 alias nethogs="sudo nethogs"
+
+# Get public ip
+alias gip="curl api.ipify.org"
 
 
 #---------------#

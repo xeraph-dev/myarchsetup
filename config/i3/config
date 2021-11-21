@@ -30,6 +30,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
+#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec alacritty
 
 # kill focused window
@@ -137,6 +138,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# kill picom
+bindsym $mod+Shift+p exec kill $(pidof picom) restart
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -188,9 +191,9 @@ gaps outer 1
 #gaps horizontal 2
 
 # Keybindings
-bindsym --release  Print exec scrot -pe 'mv $f ~/Images/'
-bindsym --release  $mod+Print exec scrot -pue 'mv $f ~/Images/'
-bindsym --release  Shift+Print exec scrot -pse 'mv $f ~/Images/'
+bindsym --release  Print exec scrot -pe 'mv $f ~/Pictures/scrot/'
+bindsym --release  $mod+Print exec scrot -pue 'mv $f ~/Pictures/scrot/'
+bindsym --release  $mod+Shift+Print exec scrot -pse 'mv $f ~/Pictures/scrot/'
 
 # Floatings windows
 for_window [window_role="pop-up"] floating enable
@@ -203,6 +206,7 @@ exec --no-startup-id polybar &
 
 exec_always --no-startup-id feh --recursive --bg-fill --randomize ~/.wallpaper &
 exec_always --no-startup-id picom --config ~/.config/picom/config &
+exec_always --no-startup-id autotiling
 
 # Assign
 assign [class="Code"] $workspace1

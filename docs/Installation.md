@@ -180,7 +180,7 @@ passwd
 ###### Configure bootloader
 
 ```shell
-pacman -S grub efibootmgr os-prober
+pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot/efi
 grub-mkconfig -o /boot/grub/grub.cfg
 ```

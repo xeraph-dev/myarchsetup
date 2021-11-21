@@ -16,12 +16,10 @@ auri visual-studio-code-bin
 auri typora
 auri webstorm
 auri ocs-url
+auri slack-desktop
+auri postman
+auri autotiling
 ```
 
 
 
-```
-wget -O - https://raw.githubusercontent.com/adrianrl99/myarchsetup/main/wallpaper/wallpaper.jpg > ~/.wallpaper/wallpaper.jpg
-```
-
-after install feh and download wallpaper, restart i3
