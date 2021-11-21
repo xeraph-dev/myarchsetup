@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -z "$AUR_PATH" ]; then
+  echo "Please set AUR_PATH in your envs"
+  exit 1
+fi
+
+if [ -z "$1" ]; then
+  echo "Missing package name"
+  exit 1
+fi
+
+for entry in "$AUR_PATH"/*; do
+  if [[ $(basename "$entry") == *"$1"* ]]; then
+    echo "$(basename "$entry")"
+  fi
+done
