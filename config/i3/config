@@ -185,10 +185,10 @@ client.background       #ffffff
 # }
 
 ##### i3-gaps ##############
-for_window [class=".*"] border pixel 0 #*
+for_window [class=".*"] border pixel 0
 gaps inner 15
 gaps outer 1
-#gaps horizontal 2
+gaps top -10
 
 # Keybindings
 # Scrot
@@ -200,14 +200,21 @@ bindsym --release  $mod+Shift+Print exec scrot -ps -e 'mv $f ~/Pictures/scrot/'
 bindsym --release $mod+Control+Left workspace prev
 bindsym --release $mod+Control+Right workspace next
 
+# Lollypop
+bindsym --release $mod+P exec lollypop -t &
+bindsym --release $mod+Prior exec lollypop -p &
+bindsym --release $mod+Next exec lollypop -n &
+
 # Floatings windows
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 
 exec --no-startup-id telegram-desktop
+exec --no-startup-id slack
 exec --no-startup-id 1password --silent
 exec --no-startup-id nautilus
 exec --no-startup-id polybar &
+exec --no-startop-id lollypop &
 
 exec_always --no-startup-id feh --recursive --bg-fill --randomize ~/.wallpaper &
 exec_always --no-startup-id picom --config ~/.config/picom/config &
