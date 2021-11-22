@@ -8,7 +8,6 @@
 
 3. Scripts
    1. [Aur](./docs/scripts/Aur.md)
-   
 4. [Pre-configuration](./docs/Pre-configuration.md)
 
 5. Configurationst
@@ -23,25 +22,18 @@
    9. [NvidiaDriver](./docs/configurations/NvidiaDriver.md)
    10. [Audio](./docs/configurations/Audio.md)
    11. [Lightdm](./docs/configurations/Lightdm.md)
-   
 6. [Programs](./docs/Programs.md)
 
 7. [Docker]("./docks/Docker.md")
 
 8. [Polkit](./docs/Polkit.md)
 
-8. [1password](./docs/1password.md)
+9. [1password](./docs/1password.md)
 
-8. [Warp](./docs/Warp.md)
+10. [Warp](./docs/Warp.md)
 
-9. [Customization](./docs/Customization)
-
-   
+11. [Customization](./docs/Customization)
 
 ### Screenshots
 
-![code](./screenshots/code.png)
-
-
-
-![terminals](./screenshots/terminals.png)
+![screenshot](./screenshots/screenshot.png)
