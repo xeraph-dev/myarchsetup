@@ -49,6 +49,8 @@ alias spmR="spm -R"
 alias spmRns="spm -Rns"
 # List all packages installed as dependencies
 alias pmQd="pm -Qd"
+# List all packages installed as dependencies but not needed for other packages
+alias pmQdt="pm -Qdt"
 # List all packages installed explicitly
 alias pmQe="pm -Qe"
 # Mostrar informacion del package
@@ -66,9 +68,6 @@ alias btop="sudo btop"
 
 # nethogs
 alias nethogs="sudo nethogs"
-
-# Get public ip
-alias gip="curl api.ipify.org"
 
 
 #---------------#
