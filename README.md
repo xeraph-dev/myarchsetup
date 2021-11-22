@@ -32,7 +32,7 @@
 
 10. [Warp](./docs/Warp.md)
 
-11. [Customization](./docs/Customization)
+11. [Customization](./docs/Customization.md)
 
 ### Screenshots
 
