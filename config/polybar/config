@@ -20,15 +20,15 @@ module-margin-right = 0
 background = ${colors.transparent}
 foreground = ${colors.foreground}
 
-modules-left = logo cpu temperature memory network ip
+modules-left = logo cpu temperature gpu-temp memory network 
 modules-center = i3
 modules-right = pulseaudio date power-menu
 
-tray-position = right
-tray-detached = false
-tray-maxsize = 16
-tray-padding = 2
-tray-background = ${colors.transparent}
+#tray-position = right
+#tray-detached = false
+#tray-maxsize = 16
+#tray-padding = 2
+#tray-background = ${colors.transparent}
 
 
 [module/cpu]
@@ -43,6 +43,22 @@ label = %{T4}%{T-} %percentage%%
 label-foreground = ${colors.foreground}
 label-background = ${colors.tbackground}
 label-font = 1
+
+
+[module/gpu-temp]
+type = custom/script
+interval = 1
+exec = echo "$(nvidia-smi | awk '{print $3}' | grep "C" | sed "s/[^0-9]//g")%{T4}糖%{T-}"
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.tbackground}
+format-prefix = " %{T3}%{T-}"
+format-prefix-foreground = ${colors.tbackground}
+format-prefix-background = ${colors.transparent}
+format-suffix = "%{T3}%{T-}"
+format-suffix-foreground = ${colors.tbackground}
+format-suffix-background = ${colors.transparent}
+
 
 [module/temperature]
 type = internal/temperature
@@ -120,6 +136,7 @@ label-packetloss-background = ${colors.tbackground}
 
 [module/ip]
 type = custom/script
+interval = 5
 exec = echo $(gip)
 
 format-foreground = ${colors.foreground}
@@ -130,6 +147,10 @@ format-prefix-background = ${colors.transparent}
 format-suffix = "%{T3}%{T-}"
 format-suffix-foreground = ${colors.tbackground}
 format-suffix-background = ${colors.transparent}
+
+click-left = gip online
+click-right = gip local
+
 
 [module/logo]
 type = custom/text
